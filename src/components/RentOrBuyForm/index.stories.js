@@ -1,6 +1,6 @@
 import React from 'react'
 import { storiesOf, action } from '@kadira/storybook'
-import RentOrByForm from '.'
+import RentOrBuyForm from '.'
 
 const areas = ['RJ', 'SP']
 
@@ -16,7 +16,7 @@ const onChange = action('changed')
 
 const props = { areas, values, onChange }
 
-storiesOf('RentOrByForm', module)
+storiesOf('RentOrBuyForm', module)
   .add('default', () => (
-    <RentOrByForm {...props} />
+    <RentOrBuyForm {...props} />
   ))

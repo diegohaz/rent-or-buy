@@ -27,7 +27,7 @@ const ChartCanvas = styled.div`
 
 const Chart = ({ title, children, ...props }) => {
   return (
-    <Wrapper {...props} title={title}>
+    <Wrapper {...props} title={title} role="status">
       {title && <Title>{title}</Title>}
       <ChartCanvas>{children}</ChartCanvas>
     </Wrapper>

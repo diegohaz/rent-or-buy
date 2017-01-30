@@ -11,7 +11,7 @@ const Form = styled.form`
   color: ${palette('grayscale', 0)};
 `
 
-class RentOrByForm extends React.Component {
+class RentOrBuyForm extends React.Component {
   static propTypes = {
     values: PropTypes.shape({
       area: PropTypes.string,
@@ -88,4 +88,4 @@ class RentOrByForm extends React.Component {
   }
 }
 
-export default RentOrByForm
+export default RentOrBuyForm
