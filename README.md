@@ -1,5 +1,7 @@
 # Desafio OLX Imóveis
 
+**Live coding video: https://youtu.be/bzDqmksWHTg**
+
 Construa uma SPA interativa utilizando **ReactJS** para ajudar o usuário a decidir se deve comprar ou alugar um imóvel.
 
 Utilize essa página como referência (o que você deve construir é uma versão bem simplificada disso): http://www.trulia.com/rent_vs_buy/
